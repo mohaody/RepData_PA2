@@ -98,12 +98,12 @@ economic damage.
     ggplot(healthImpactByType[1:10,],aes(EVTYPE,healthImpact))+geom_bar(stat='identity',fill='red')+theme_bw()+coord_flip()+
       labs(title='Weather Impact on Health',x='Type of Weather Events',y='Fatality+Injury')
 
-![](RepData_PA2_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](Figures/unnamed-chunk-6-1.png)
 
     ggplot(PropLossByType[1:10,],aes(EVTYPE,PropLoss))+geom_bar(stat='identity',fill='blue')+theme_bw()+coord_flip()+
       labs(title='Weather Impact on Economic Loss',x='Type of Weather Events',y='Property Loss+Crop Loss')
 
-![](RepData_PA2_files/figure-markdown_strict/unnamed-chunk-6-2.png)
+![](Figures/unnamed-chunk-6-2.png)
 
 ### Plot the location of the Tornado
 
@@ -125,7 +125,7 @@ economic damage.
 
     ## Warning: Removed 1081 rows containing missing values (geom_point).
 
-![](RepData_PA2_files/figure-markdown_strict/unnamed-chunk-7-1.png)
+![](Figures/unnamed-chunk-7-1.png)
 
 The tornado is mostly happened in center and southeast coast of the
 United States.
